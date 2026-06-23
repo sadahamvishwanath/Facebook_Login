@@ -3,7 +3,6 @@
 A clean, responsive clone of the Facebook login page built using only **HTML** and **CSS**. This project was created as a hands-on exercise to practice layout design, form styling, and responsive web development.
 
 ![Facebook Login Screenshot](image.png)  
-*(Optional: Add a screenshot of your page here. Rename your screenshot to `Screenshot.png` and upload it to the repo.)*
 
 ---
 
@@ -11,7 +10,7 @@ A clean, responsive clone of the Facebook login page built using only **HTML** a
 
 Check out the live version hosted on GitHub Pages:
 
-👉 **[View the live page](https://[your-username].github.io/[your-repo-name]/)**
+👉 **[View the live page](https://sadahamvishwanath.github.io/Facebook_Login/)**
 
 ---
 
