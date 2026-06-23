@@ -2,7 +2,7 @@
 
 A clean, responsive clone of the Facebook login page built using only **HTML** and **CSS**. This project was created as a hands-on exercise to practice layout design, form styling, and responsive web development.
 
-![Facebook Login Screenshot](image.png)  
+![Facebook Login Screenshot](ime.png)  
 
 ---
 
