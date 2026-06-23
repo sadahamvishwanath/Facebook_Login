@@ -96,28 +96,3 @@ text
 
 ---
 
-### How to add the README to your GitHub repo:
-
-1. In your repository, click **"Add file"** → **"Create new file"**.
-2. Name it exactly **`README.md`** (case-sensitive).
-3. Paste the entire text above into the editor.
-4. Scroll down, write a commit message like `"Add README"`, and click **"Commit new file"**.
-
----
-
-### Bonus: Adding a Screenshot
-
-If you want a screenshot to show up in the README (the `Screenshot.png` placeholder):
-
-1. Take a screenshot of your page (using `Win+Shift+S` on Windows or `Cmd+Shift+4` on Mac).
-2. Save it as `Screenshot.png` in your project folder.
-3. Upload it to GitHub along with the README.
-
----
-
-### 💡 Pro-Tip for Beginners
-
-Customize the README to make it **your own**! Add things like:
-- A section titled **"Challenges I Faced"** – explain what was hard and how you solved it. This looks *fantastic* to recruiters.
-- Add the **live GitHub Pages link** once you deploy it.
-- Change the "Future Improvements" section to whatever *you* actually want to add next.
