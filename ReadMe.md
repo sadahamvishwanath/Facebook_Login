@@ -37,6 +37,7 @@ Check out the live version hosted on GitHub Pages:
 ---
 
 ## 📁 Project Structure
+```
 [your-repo-name]/
 │
 ├── index.html # Main HTML file
@@ -44,7 +45,8 @@ Check out the live version hosted on GitHub Pages:
 ├── README.md # Project documentation (this file)
 └── Screenshot.png # (Optional) Screenshot of the page
 
-text
+```
+
 
 ---
 
