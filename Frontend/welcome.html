@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Facebook</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .welcome-container {
+            max-width: 600px;
+            margin: 60px auto;
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .welcome-container h1 {
+            font-size: 32px;
+            color: #1877f2;
+        }
+        .welcome-container .user-info {
+            margin: 30px 0;
+            font-size: 18px;
+            color: #1c1e21;
+        }
+        .welcome-container .user-info strong {
+            display: block;
+            font-size: 24px;
+            color: #1877f2;
+        }
+        #logout-btn {
+            background: #e4e6eb;
+            color: #1c1e21;
+            border: none;
+            padding: 12px 40px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        #logout-btn:hover {
+            background: #d2d4d9;
+        }
+        .feed-placeholder {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f2f5;
+            border-radius: 8px;
+            color: #65676b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <h1>👋 Welcome back!</h1>
+
+        <div class="user-info">
+            <strong id="user-name">User</strong>
+            <span id="user-email">email@example.com</span>
+        </div>
+
+        <button id="logout-btn">Log Out</button>
+
+        <div class="feed-placeholder">
+            🚀 This is your personalized feed (coming soon!)
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

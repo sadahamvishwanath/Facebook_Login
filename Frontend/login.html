@@ -4,14 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook – Log in or Sign up</title>
-
     <link rel="stylesheet" href="style.css" />
-
 </head>
 <body>
 
     <div class="container">
-
         <div class="left-section">
             <div class="logo">facebook</div>
             <div class="tagline">Explore the things you love.</div>
@@ -19,10 +16,10 @@
 
         <div class="right-section">
             <div class="login-card">
-
                 <h2>Log in to Facebook</h2>
 
-                <form action="#" method="POST">
+                <!-- Login form with ID for JavaScript -->
+                <form id="login-form">
                     <input type="email" id="email" name="email" placeholder="Email address or mobile number" required />
                     <input type="password" id="password" name="password" placeholder="Password" required />
 
@@ -30,17 +27,19 @@
                 </form>
 
                 <a href="#" class="forgot-link">Forgotten password?</a>
-
                 <hr class="divider" />
 
-                <button class="create-btn">Create new account</button>
-
+                <!-- For demo, this button could link to a register page -->
+                <a href="register.html" style="text-decoration:none;">
+                    <button class="create-btn">Create new account</button>
+                </a>
             </div>
 
             <p class="meta-text">Meta</p>
         </div>
-
     </div>
 
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>

@@ -107,6 +107,11 @@ body {
     background-color: #166fe5;
 }
 
+.login-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
 /* ---------- FORGOT PASSWORD ---------- */
 .forgot-link {
     display: block;
@@ -153,6 +158,17 @@ body {
     color: #737373;
     font-size: 14px;
     margin-top: 20px;
+}
+
+/* ---------- ERROR MESSAGE (dynamically added) ---------- */
+.error-message {
+    background-color: #ffe6e6;
+    color: #cc0000;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-align: center;
 }
 
 /* ---------- RESPONSIVE ---------- */
