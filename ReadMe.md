@@ -10,7 +10,7 @@ A clean, responsive clone of the Facebook login page built using only **HTML** a
 
 Check out the live version hosted on GitHub Pages:
 
-👉 **[View the live page](https://sadahamvishwanath.github.io/Facebook_Login/login.html)**
+👉 **[View the live page](https://sadahamvishwanath.github.io/Facebook_Login)**
 
 ---
 
