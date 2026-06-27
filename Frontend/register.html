@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up – Facebook</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Extra styles for registration card */
+        .register-card h2 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1c1e21;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        .register-card .sub-head {
+            text-align: center;
+            color: #606770;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .register-card input {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 17px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            outline: none;
+            transition: border-color 0.2s;
+            background-color: #ffffff;
+        }
+        .register-card input:focus {
+            border-color: #1877f2;
+            box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+        }
+        .register-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: #42b72a;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            margin-top: 4px;
+        }
+        .register-btn:hover {
+            background-color: #36a420;
+        }
+        .login-link {
+            display: block;
+            text-align: center;
+            margin-top: 16px;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .login-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">facebook</div>
+            <div class="tagline">Sign up and start exploring.</div>
+        </div>
+
+        <div class="right-section">
+            <div class="login-card register-card">
+                <h2>Create a new account</h2>
+                <p class="sub-head">It's quick and easy.</p>
+
+                <!-- Registration Form -->
+                <form id="register-form">
+                    <input type="text" id="full_name" name="full_name" placeholder="Full Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email address" required />
+                    <input type="password" id="password" name="password" placeholder="New Password" required />
+
+                    <button type="submit" class="register-btn">Sign Up</button>
+                </form>
+
+                <a href="login.html" class="login-link">Already have an account? Log in</a>
+            </div>
+            <p class="meta-text">Meta</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
