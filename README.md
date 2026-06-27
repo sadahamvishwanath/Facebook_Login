@@ -2,7 +2,7 @@
 
 ![Screenshot of Facebook Login](image.png)
 
-A full-stack clone of the Facebook login and sign-up flow built with **HTML, CSS, JavaScript (frontend)** and **Python/Flask + SQLite (backend)**. This project is designed as a learning journey to master web development from the ground up.
+A clone of the Facebook login and sign-up flow built with **HTML, CSS, JavaScript (frontend)** and **Python/Flask + SQLite (backend)**. This project is designed as a learning journey to master web development from the ground up.
 
 ---
 
@@ -132,25 +132,6 @@ curl -X POST http://localhost:5000/api/login \
 
 ---
 
-## 🌐 Live Demo
-
-**Note:** The live demo link above is a placeholder. Once you deploy the project to a cloud platform (e.g., Render, Heroku, or PythonAnywhere), update the badge URL and add the actual link here.
-
-> The badge at the top links to `https://your-live-demo-url.com`. Once you deploy your project, replace that URL with your actual live site.
-
----
-
-## 🗺️ Roadmap / Future Improvements
-
-- Add **JWT authentication** for stateless sessions.
-- Create a **news feed** with posts and comments.
-- Implement **password reset** via email.
-- Add **profile pictures** (file uploads).
-- Deploy to a cloud service.
-- Write **unit tests** for the backend.
-- Use **environment variables** for configuration.
-
----
 
 ## 🤝 Contributing
 
