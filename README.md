@@ -1,7 +1,6 @@
 # Facebook Login Clone
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://github.com/sadahamvishwanath/Facebook_Login)
-[![GitHub license](https://img.shields.io/github/license/sadahamvishwanath/Facebook_Login)](https://github.com/sadahamvishwanath/Facebook_Login/blob/main/LICENSE)
+![Screenshot of Facebook Login](image.png)
 
 A full-stack clone of the Facebook login and sign-up flow built with **HTML, CSS, JavaScript (frontend)** and **Python/Flask + SQLite (backend)**. This project is designed as a learning journey to master web development from the ground up.
 
