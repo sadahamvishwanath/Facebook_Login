@@ -5,30 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Facebook</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Additional welcome-specific styles -->
     <style>
+        /* ---------- WELCOME PAGE STYLES ---------- */
         .welcome-container {
             max-width: 600px;
             margin: 60px auto;
             text-align: center;
-            background: white;
-            padding: 40px;
+            background: #ffffff;
+            padding: 40px 30px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
+
         .welcome-container h1 {
             font-size: 32px;
             color: #1877f2;
+            margin-bottom: 10px;
         }
-        .welcome-container .user-info {
+
+        .welcome-container .subtitle {
+            color: #65676b;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .user-info {
             margin: 30px 0;
             font-size: 18px;
             color: #1c1e21;
         }
-        .welcome-container .user-info strong {
+
+        .user-info strong {
             display: block;
-            font-size: 24px;
+            font-size: 26px;
             color: #1877f2;
+            margin-bottom: 4px;
         }
+
+        .user-info span {
+            color: #65676b;
+            font-size: 16px;
+        }
+
         #logout-btn {
             background: #e4e6eb;
             color: #1c1e21;
@@ -39,16 +58,26 @@
             font-weight: 600;
             cursor: pointer;
             transition: background 0.2s;
+            margin-top: 10px;
         }
+
         #logout-btn:hover {
             background: #d2d4d9;
         }
+
         .feed-placeholder {
-            margin-top: 30px;
-            padding: 20px;
+            margin-top: 35px;
+            padding: 25px 20px;
             background: #f0f2f5;
             border-radius: 8px;
             color: #65676b;
+            font-size: 15px;
+        }
+
+        .feed-placeholder .icon {
+            font-size: 36px;
+            display: block;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -56,6 +85,7 @@
 
     <div class="welcome-container">
         <h1>👋 Welcome back!</h1>
+        <p class="subtitle">You are now logged in.</p>
 
         <div class="user-info">
             <strong id="user-name">User</strong>
@@ -65,7 +95,9 @@
         <button id="logout-btn">Log Out</button>
 
         <div class="feed-placeholder">
-            🚀 This is your personalized feed (coming soon!)
+            <span class="icon">🚀</span>
+            Your personalized feed will appear here.<br />
+            (Coming soon!)
         </div>
     </div>
 
