@@ -1,0 +1,98 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---------- Database ----------
+*.db
+*.sqlite3
+*.sqlite
+database/*.db
+database/*.sqlite3
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.~lock.*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+*.userosscache
+*.userprefs
+*.dbmdl
+*.pdb
+*.pid
+*.seed
+*.pid.lock
+
+# ---------- OS generated ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Logs ----------
+*.log
+logs/
+*.log.*
+
+# ---------- Environment variables ----------
+.env
+.env.local
+.env.*.local
+
+# ---------- Flask / Backend ----------
+instance/
+webapp.db
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ---------- Frontend (if using npm) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# ---------- Backup files ----------
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# ---------- Misc ----------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
